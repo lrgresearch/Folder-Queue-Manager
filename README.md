@@ -1,2 +1,27 @@
 # Folder Queue Manager
- Directory Monitoring, command executing and folder copying/moving software for small tasks
+A simple software for adhoc Directory Monitoring, command executing and folder copying/moving software for small tasks
+
+## About
+
+This software is written for adhoc needs of a physics research group [LRG](http://www.lrgresearch.org). With the Covid-19 outbreak,
+Laboratory went to all remote-work. However, there were some computational codes needed to run on lab computers. However, because 
+of Teamviewer type of remote connection softwares and Reverse SSH were not working in the lab computers, there was a need of this 
+small software. It is best used with Google Drive, Dropbox type of cloud file management tools.
+
+With this code, you can use your GD or Dropbox as a queue for your computation tool. Program checks a folder (likely in GD or Dropbox
+Folder). When finds a file, it copies to a temp folder (likely a local folder). When the execution of command finishes, it zips all
+results and put it to another folder (again likely a GD or Dropbox folder). Therefore, without using any other tools, you can use your
+Cloud file space as a computation queue. It can be usedbin many computers you need.
+
+We believe, in a days like these, many people may need this kind of need. Therefore, we publish it freely as quick as possible (First 
+release: Mar 25,2020). Code is very primitive. It is easy to recompile for your needs.
+
+It needs active development. Please do not hesitate to send your merge requests.
+
+## Features can be added in Future Releases:
+
+- Not delete folders in TEMP folder (it can be good for archiving),
+- Change interval of controlling input files,
+- Choose output will to be zipped or not be zipped,
+- More than one instance,
+- Instance(s) will not be work as a child process.
