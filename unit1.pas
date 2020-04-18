@@ -201,7 +201,7 @@ begin
   // Running command
   Process := TProcess.Create(nil);
   try
-    Process.Executable := 'python.exe';
+    Process.Executable := 'atkpython.exe';
     Process.CurrentDirectory:= TempFolder+'\'+TempFolderName;
     Process.Parameters.Add(Instance1);
     Process.Options := Process.Options + [poUsePipes];
