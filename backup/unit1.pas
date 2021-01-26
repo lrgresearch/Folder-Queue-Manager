@@ -145,8 +145,8 @@ if ((InputFolder = 'na') or (OutputFolder = 'na') or (TempFolder = 'na')) then b
 end;
 
    // 10 mins = 1000msec*60*10 =600000msecs
-   Timer1.Interval := 300000;
-   i:=300000;
+   Timer1.Interval := 60000;
+   i:=60000;
 end;
 
 procedure TForm1.Timer1Timer(Sender: TObject);
