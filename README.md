@@ -22,7 +22,7 @@ FQM needs active development. Development of FQM is a volunteer effort, and you 
 - Instance(s) will not be work as a child process.
 
 ## Maintainer
-Sefer Bora Lisesivdin is the original author and the current maintainer of FQM. Please use [his website](http://sblisesivdin.github.io) for contact.
+Sefer Bora Lisesivdin is the original author and the current maintainer of FQM. Please use [his website](https://lrgresearch.org/bora) for contact.
 
 ## Licensing
 FQM is free software; you can redistribute it and/or modify it under the terms of the GPLv3 as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
